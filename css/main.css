@@ -1,6 +1,12 @@
+
+
 #hoofd {
 text-align: center;
 color: red;
+}
+body {
+	   background-image: url("https://static.pexels.com/photos/73871/rocket-launch-rocket-take-off-nasa-73871.jpeg");
+		     background-size: 100% auto;
 }
 p {
 	color: blue;
@@ -289,5 +295,6 @@ ul {
 	font-weight: bold;
 	text-align: center;
 }
-
-
+#rockets {
+	width: 100%;
+}
