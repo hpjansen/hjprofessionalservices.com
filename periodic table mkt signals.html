@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+$(document).ready(function() {
+    $('#topofmind_button').click(function() {
+        $('#awareness_topofmind').toggle();
+    });
+});
+$(document).ready(function() {
+    $('#views_button').click(function() {
+        $('#awareness_views').toggle();
+        $('#awareness_topofmind').toggle();
+    });
+});
+$(document).ready(function() {
+    $('#volume_button').click(function() {
+        $('#1').toggle();
+        $('#2').toggle();
+          $('#4').toggle();
+    });
+});
+$(document).ready(function() {
+    $('#signal_type_volume').click(function() {
+        $('#1').toggle();
+        $('#2').toggle();
+          $('#4').toggle();
+    });
+});
+$(document).ready(function() {
+    $('#channel_dpl').click(function() {
+        $('#4').toggle();
+        $('#179').toggle();
+    });
+});
+$(document).ready(function() {
+    $('#channel_aff').click(function() {
+        $('#1').toggle(1000);
+        $('#2').toggle(1000);
+        $('#3').toggle(1000);
+    });
+});
+
+<!-- Signal type -->        
+$(document).ready(function() {
+    $('#impression_volume_1').click(function() {
+         $('#impression_volume_1').toggleClass('selected');
+        $('#reach_volume_2').toggleClass('selected');
+         $('#impression_volume_4').toggleClass('selected');
+    });
+});
+$(document).ready(function() {
+    $('#reach_volume_2').click(function() {
+         $('#impression_volume_1').toggleClass('selected');
+        $('#reach_volume_2').toggleClass('selected');
+         $('#impression_volume_4').toggleClass('selected');
+    });
+});
+$(document).ready(function() {
+    $('#impression_volume_4').click(function() {
+         $('#impression_volume_1').toggleClass('selected');
+        $('#reach_volume_2').toggleClass('selected');
+         $('#impression_volume_4').toggleClass('selected');
+    });
+});
+
+
+<!-- Channel -->   
+$(document).ready(function() {
+    $('#impression_aff_1').click(function() {
+         $('#reach_aff_2').toggleClass('selected');
+        $('#CTR_aff_3').toggleClass('selected');
+        $('#impression_aff_1').toggleClass('selected');
+    });
+});
+$(document).ready(function() {
+    $('#reach_aff_2').click(function() {
+         $('#reach_aff_2').toggleClass('selected');
+        $('#CTR_aff_3').toggleClass('selected');
+        $('#impression_aff_1').toggleClass('selected');
+    });
+});
+$(document).ready(function() {
+    $('#CTR_aff_3').click(function() {
+         $('#reach_aff_2').toggleClass('selected');
+        $('#CTR_aff_3').toggleClass('selected');
+        $('#impression_aff_1').toggleClass('selected');
+    });
+});
+
+
+<!-- Signal Name -->
+
+$(document).ready(function() {
+    $('#signal_name_impression_4').click(function() {
+         $('#signal_name_impression_1').toggleClass('selected_signal_name');
+         $('#signal_name_impression_4').toggleClass('selected_signal_name');
+    });
+});
+$(document).ready(function() {
+    $('#signal_name_impression_1').click(function() {
+         $('#signal_name_impression_1').toggleClass('selected_signal_name');
+         $('#signal_name_impression_4').toggleClass('selected_signal_name');
+    });
+});
+</script>
+ </head>
+ <body>
+
+
+
+<!--idividual cells-->
+
+<div class="objective" id="1">
+	<div class="number">1</div>
+    <div class="channel" id="impression_aff_1">AFF</div>
+	<div class="signal_name" id="signal_name_impression_1">Impression</div>
+	<div class="signal_type" id="impression_volume_1">Volume</div>
+</div>
+<div class="objective" id="2">
+    <div class="number">2</div>
+    <div class="channel" id="reach_aff_2">AFF</div>
+    <div class="signal_name">Reach</div>
+    <div class="signal_type" id="reach_volume_2">Volume</div>
+</div>
+<div class="objective" id="3">
+    <div class="number">3</div>
+    <div class="channel" id="CTR_aff_3">AFF</div>
+    <div class="signal_name">CTR</div>
+    <div class="signal_type" id="CTR_quality_3">Quality</div>
+</div>
+<div class="objective" id="4">
+    <div class="number">4</div>
+    <div class="channel" id="impression_dpl_4">DPL</div>
+    <div class="signal_name" id="signal_name_impression_4">Impression</div>
+    <div class="signal_type" id="impression_volume_4">Volume</div>
+</div>
+<div class="objective_conversion" id="179">
+    <div class="number_conversion">179</div>
+    <div class="channel_conversion" id="coster_per_action_dpl_179">DPL</div>
+    <div class="signal_name_conversion" id="signal_name_cost_per_action_179">CP Action</div>
+    <div class="signal_type_conversion" id="cost_per_action_efficiency_179">Efficiency</div>
+</div>
+
+
+
+<!--signal type-->
+<div class="filter" id="signal_type_volume">Signal type: Volume</div>
+
+<!--channel-->
+<div class="filter" id="channel_dpl">Channel: Display (DPL)</div>
+<div class="filter" id="channel_aff">Channel: Display (AFF)</div>
+ </body>
+</html>

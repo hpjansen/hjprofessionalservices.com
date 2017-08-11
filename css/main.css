@@ -1,0 +1,293 @@
+#hoofd {
+text-align: center;
+color: red;
+}
+p {
+	color: blue;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left !important;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#cell {
+	display: block;
+    color: red;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+}
+
+#volume_toggle {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	color: green;
+	text-align: center;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	height: 30px;
+    width: 180px;
+    background-color: #6a6a6a;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#volume_button {
+	color:white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	height: 30px;
+    width: 180px;
+    background-color: #6a6a6a;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 4px;
+	text-align: center;
+	font-style: bold;
+}
+.filter {
+	color:white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	height: 30px;
+    width: 180px;
+    background-color: #6a6a6a;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 4px;
+	text-align: center;
+	font-style: bold;
+	display: inline-block;
+
+    left: 350px;
+    top: 800px;
+}
+
+.objective {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height: 120px;
+    width: 120px;
+	background-color: #ffffff;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    padding: 8px;
+    margin: 4px;
+	display: inline-block;
+}
+
+
+.number {
+	position: absolute;
+	color: red;
+}
+.channel {
+	color: red;
+	text-align: right;
+}
+.signal_name {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	padding-top: 30px;
+}
+.signal_type {
+	color: red;
+	position: relative;
+	text-align: left;
+	top: 35px;
+}
+/*CONVERSION*/
+.objective_conversion {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height: 120px;
+    width: 120px;
+	background-color: #ffffff;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    padding: 8px;
+    margin: 4px;
+	display: inline-block;
+}
+
+.number_conversion {
+	position: absolute;
+	color: blue;
+}
+.channel_conversion {
+	color: blue;
+	text-align: right;
+}
+.signal_name_conversion {
+	font-weight: blue;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	padding-top: 30px;
+}
+.signal_type-conversion {
+	color: blue;
+	position: relative;
+	text-align: left;
+	top: 35px;
+}
+.signal_name_conversion {
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+	padding-top: 30px;
+}
+.signal_type_conversion {
+	color: blue;
+	position: relative;
+	text-align: left;
+	top: 35px;
+}
+
+.channel_button {
+	color: red;
+	text-align: right;
+		z-index: 5;
+}
+.signal_name_button {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	padding-top: 30px;
+		z-index: 5;
+}
+.signal_type_button {
+	color: red;
+	position: absolute;
+	text-align: left;
+	top: 35px;
+	z-index: 5;
+
+}
+
+#signal_type_volume {
+	    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+#channel_dpl {
+	    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+#channel_aff {
+	    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+
+
+.selected {
+	font-size: 16px;
+	color: #76EE00;
+	font-weight: bold;
+}
+.selected_signal_name {
+	font-size: 20px;
+	color: #76EE00;
+	font-weight: bold;
+	text-align: center;
+}
+
+
